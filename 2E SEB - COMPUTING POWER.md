@@ -22,7 +22,17 @@ To write a Python program to compute the power of a given number using an approp
 ### PROGRAM
 
 ```
+
+num = int(input())
+sum = 0
+for i in range(1, num + 1):
+    if i % 2 != 0:
+        sum += i
+
+print(f"The sum of the series = {sum}")
 ```
 ### OUTPUT
+<img width="728" height="241" alt="image" src="https://github.com/user-attachments/assets/369d4878-b810-485b-9b51-df0c89b59b56" />
 
 ### RESULT
+Thus the program to calculate the sum of the odd number series from 1 to N using a loop has been implemented and executed successfully.
